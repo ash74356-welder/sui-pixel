@@ -1,0 +1,13 @@
+# Railway 部署配置文件
+[build]
+builder = "nixpacks"
+
+[deploy]
+startCommand = "node index.js"
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
+restartPolicyMaxRetries = 3
+
+[environments]
+production = { PORT = "3001" }
