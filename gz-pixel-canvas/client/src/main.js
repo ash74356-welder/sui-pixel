@@ -1602,7 +1602,7 @@ function initSocket() {
   const isLocalhost = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
 
   // 生产环境配置 - 修改这里为你的后端服务器地址
-  const PRODUCTION_SERVER_URL = 'https://sui-pixel-server.up.railway.app'
+  const PRODUCTION_SERVER_URL = 'https://sui-pixel.onrender.com'
 
   // 自动检测服务器地址
   let serverUrl
