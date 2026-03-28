@@ -1,4 +1,3 @@
-# Railway 部署配置文件
 [build]
 builder = "nixpacks"
 
